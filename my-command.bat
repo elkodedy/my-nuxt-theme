@@ -13,7 +13,7 @@ git add .
 git commit -am "update"
 git push
 
-echo [RENAME <portal.global.ts> TO <portal.ts> ]
+echo "[RENAME <portal.global.ts> TO <portal.ts> ]"
 ren "portal.global.ts" "portal.ts"
 
 
