@@ -5,7 +5,7 @@ echo [START]
 @REM echo "[PNPM GENERATE]"
 @REM pnpm generate
 
-echo "/n [RENAME <portal.ts> TO <portal.global.ts> ] /n"
+echo "\n [RENAME <portal.ts> TO <portal.global.ts> ] /n"
 ren "portal.ts" "portal.global.ts"
 
 echo "git add, commit(update), and push"
