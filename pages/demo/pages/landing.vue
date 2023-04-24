@@ -15,7 +15,7 @@ function smoothScroll(id: string) {
 
 <template>
   <div class="surface-0 overflow-hidden">
-    <div class="py-4 px-4 mx-0 md:mx-6 lg:mx-8 lg:px-8 flex align-items-center justify-content-between relative lg:static">
+    <!-- <div class="py-4 px-4 mx-0 md:mx-6 lg:mx-8 lg:px-8 flex align-items-center justify-content-between relative lg:static">
       <NuxtLink to="/" class="flex align-items-center">
         <img :src="`/images/logo-${logoColor}.svg`" alt="Sakai Logo" height="50" class="mr-0 lg:mr-2"><span class="text-900 font-medium text-2xl line-height-3 mr-8">SAKAI</span>
       </NuxtLink>
@@ -54,17 +54,22 @@ function smoothScroll(id: string) {
           <Button label="Register" class="p-button-rounded border-none ml-5 font-light text-white line-height-2 bg-blue-500" />
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="hero" class="grid py-4 px-4 lg:px-8 relative">
       <div class="mx-4 md:mx-8 mt-0 md:mt-4">
         <h1 class="text-6xl font-bold text-gray-900 line-height-2">
-          <span class="font-light block">Eu sem integer</span>eget magna fermentum
+          <span class="font-light block"> Hii👋, </span>I'am Elko Dedy Pratama
         </h1>
         <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-          Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...
+          i am a Software Engineer, <br> i develope some apps for fun😆, and of course help peoples develop their own app😉.
         </p>
-        <Button label="Get Started" class="p-button-rounded text-xl border-none mt-5 bg-blue-500 font-normal text-white line-height-3 px-3" />
+        <NuxtLink class="" to="mailto:elkodedy.99@gmail.com">
+          <Button label="Contact Me" class="p-button-rounded text-xl border-none mt-5 mr-2 bg-cyan-400 font-normal text-white line-height-3 px-3" />
+        </NuxtLink>
+        <NuxtLink class="" to="https://drive.google.com/file/d/1Tp4M-27FKohJnFfgyXHH09oWYbwxFVhA/view?usp=sharing">
+          <Button label="Download My CV" class="p-button-rounded text-xl border-none mt-5 bg-blue-500 font-normal text-white line-height-3 px-3" />
+        </NuxtLink>
       </div>
       <img src="/images/screen-1.png" class="bottom-0" alt="hero screen" style="right:10%;">
     </div>
@@ -73,9 +78,9 @@ function smoothScroll(id: string) {
       <div class="grid justify-content-center">
         <div class="col-12 text-center mt-8 mb-4">
           <h2 class="text-900 font-normal mb-2">
-            Marvelous Features
+            This Is My Work💪💪💪
           </h2>
-          <span class="text-600 text-2xl">Placerat in egestas erat...</span>
+          <span class="text-600 text-2xl">Goverment's Project.</span>
         </div>
 
         <div class="col-12 md:col-12 lg:col-4 p-0 lg:pr-5 lg:pb-5 mt-4 lg:mt-0">
@@ -437,13 +442,14 @@ function smoothScroll(id: string) {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), radial-gradient(77.36% 256.97% at 77.36% 57.52%, #EEEFAF 0%, #C3E3FA 100%);
     height:700px;
     overflow:hidden;
+    padding-top: 120px !important;
 }
 
 @media screen and (min-width: 768px) {
     #hero{
         -webkit-clip-path: ellipse(150% 87% at 93% 13%);
         clip-path: ellipse(150% 87% at 93% 13%);
-        height: 530px;
+        height: 700px;
     }
 }
 
