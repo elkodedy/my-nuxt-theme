@@ -1,6 +1,6 @@
 @echo off
 
-echo "[[[[START]]]]"
+echo [START]
 
 @REM echo "[PNPM GENERATE]"
 @REM pnpm generate
