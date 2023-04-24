@@ -1,7 +1,7 @@
 @echo off
 
 echo [START]
-
+echo.
 @REM echo "[PNPM GENERATE]"
 @REM pnpm generate
 
