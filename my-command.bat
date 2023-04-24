@@ -7,8 +7,7 @@ echo.
 @REM pnpm generate
 
 echo.
-echo [RENAME]
-echo "<portal.ts>TO<portal.global.ts>"
+echo [RENAME] "portal.ts" to "portal.global.ts"
 ren "portal.ts" "portal.global.ts"
 
 echo.
@@ -18,8 +17,7 @@ git commit -am "update"
 git push
 
 echo.
-echo [RENAME]
-echo "<portal.global.ts>TO<portal.ts>"
+echo [RENAME] "<portal.global.ts> to <portal.ts>"
 ren "portal.global.ts" "portal.ts"
 
 echo.
