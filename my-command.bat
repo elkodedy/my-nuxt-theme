@@ -12,8 +12,7 @@ echo "<portal.ts>TO<portal.global.ts>"
 ren "portal.ts" "portal.global.ts"
 
 echo.
-echo [GIT]
-echo "git add, commit(update), and push"
+echo [GIT] "git add, commit(update), and push"
 git add .
 git commit -am "update"
 git push
